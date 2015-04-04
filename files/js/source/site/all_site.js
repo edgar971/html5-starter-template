@@ -28,13 +28,7 @@ $(window).load(function(){
 		});
 		
 		
-	});
-	$('[data-crop="zoom-image"]').on('input', function(event){
-		var zoomBtn = this;
-		var zoomVal = zoomBtn.value / 100;
-		$cropArea.cropper('zoom', zoomVal);
-		
-	});
+	})
 	
 	
 })
